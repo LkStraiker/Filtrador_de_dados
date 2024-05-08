@@ -39,7 +39,7 @@ def extrai_numero_atualiza_endereco(endereco):
         return endereco, None
 
 
-df = pd.read_excel('CLARO _21_filtrado.xlsx', na_values=['', 'NA', 'nan'])
+df = pd.read_excel('Planilha_nao_filtrada', na_values=['', 'NA', 'nan'])
 
 
 df = df.dropna(subset=['CPF'])
